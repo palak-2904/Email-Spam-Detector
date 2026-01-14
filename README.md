@@ -1,13 +1,49 @@
-Project Title: Spam Email Detection
+# Spam Email Detection 
 
-Description:
-This project detects spam emails using machine learning and NLP techniques.
+##  Project Overview
+This project detects whether an email is **Spam** or **Not Spam** using **Machine Learning and Natural Language Processing (NLP)** techniques.  
+A simple **GUI application** is also provided for user interaction.
 
-Tech Stack:
-Python, pandas, numpy, scikit-learn, nltk
+---
 
-How It Works:
-Email → preprocessing → feature extraction → prediction
+##  Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Tkinter
 
-Result:
-Model achieved ~90% accuracy on test data.
+---
+
+## 📂 Dataset
+- File: `emails.csv`
+- Contains labeled email text as **spam** or **ham**
+- Text data is preprocessed using NLP techniques
+
+---
+
+##  How It Works
+1. Email text preprocessing (cleaning, tokenization)
+2. Feature extraction using **TF-IDF**
+3. Classification using **Machine Learning model**
+4. Prediction displayed via GUI
+
+---
+
+##  Model Used
+- **Multinomial Naive Bayes**
+- Chosen for its efficiency with text classification problems
+
+---
+
+##  Results
+- Achieved approximately **90% accuracy** on test data
+
+---
+
+## ▶ How to Run the Project
+```bash
+
+python email_spam_gui.py
+
