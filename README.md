@@ -16,7 +16,7 @@ A simple **GUI application** is also provided for user interaction.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - File: `emails.csv`
 - Contains labeled email text as **spam** or **ham**
 - Text data is preprocessed using NLP techniques
